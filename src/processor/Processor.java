@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import operations.Operation;
-import operations.Sum;
 
 public class Processor {
     private List<Operation> operation = new ArrayList<Operation>();
@@ -15,9 +14,6 @@ public class Processor {
         }
     }
     
-    public Processor(Sum sum, int b) {
-    }
-
     public void run(){
         for(Operation oper: this.operation){
             oper.Calculate();
