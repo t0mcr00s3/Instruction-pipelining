@@ -21,7 +21,6 @@ public class Run {
         Variables var = new Variables(c, d, e, h);
         Processor processor1 = new Processor(new Mul(5, var.getA()), new Mul(2, var.getC()));
         processor1.run();
-        System.out.println(processor1.getOperation(0).getTotal()+""+ processor1.getOperation(1).getTotal());
         Processor processor2 = new Processor(new Sum(processor1.getOperation(0).getTotal(), var.getB()), new Div(processor1.getOperation(1).getTotal(), var.getD()));
         processor2.run();
         Processor processor3 = new Processor(new Sum(processor2.getOperation(0).getTotal(), processor2.getOperation(1).getTotal()));
