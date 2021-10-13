@@ -6,7 +6,7 @@ import java.util.List;
 import operations.Operation;
 
 public class Processor {
-    private List<Operation> operation = new ArrayList<Operation>();
+    private List<Operation> operation = new ArrayList<>();
     
     public Processor(Operation ... operation){
         for(Operation oper: operation){

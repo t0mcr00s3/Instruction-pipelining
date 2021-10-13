@@ -38,5 +38,4 @@ public class Variables {
     public final int getH(){
         return this.H;
     }
-
 }
