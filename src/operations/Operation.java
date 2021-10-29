@@ -1,6 +1,6 @@
 package operations;
 
-public class Operation {
+public class Operation extends Thread{
     protected int a;
     protected int b;
     protected int total;
@@ -10,7 +10,7 @@ public class Operation {
         this.b = b;
     }
 
-    public void Calculate(){
+    public void run(){
         ;
     }
 

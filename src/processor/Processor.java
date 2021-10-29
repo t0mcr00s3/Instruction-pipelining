@@ -16,7 +16,7 @@ public class Processor {
     
     public void run(){
         for(Operation oper: this.operation){
-            oper.Calculate();
+            oper.start();
         } 
     }
 

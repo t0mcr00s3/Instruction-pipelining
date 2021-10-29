@@ -7,8 +7,7 @@ public class Sum extends Operation{
     }
 
     @Override
-    public
-    void Calculate(){
+    public void run(){
         this.total = this.a + this.b;
     }
 }

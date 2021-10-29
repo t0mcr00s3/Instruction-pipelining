@@ -8,7 +8,7 @@ public class Div extends Operation{
 
     @Override
     public
-    void Calculate(){
+    void run(){
         this.total = this.a / this.b;
     } 
 }
