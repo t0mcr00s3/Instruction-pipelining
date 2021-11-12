@@ -33,6 +33,6 @@ public class Run {
       processor5.run();
       System.out.println("Result for (5a + b + 2 * c / d + 3) / h = " + processor5.getOperation(0).getTotal());
       Date date1 = new Date();
-      System.out.println(date1.getTime() - date.getTime());
+      System.out.println(date1.getTime() - date.getTime() + "ms");
    }
 }
